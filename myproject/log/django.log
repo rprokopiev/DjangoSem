@@ -1,0 +1,283 @@
+INFO 2024-02-15 20:55:52,012 autoreload 16524 17816 Watching for file changes with StatReloader
+INFO 2024-02-15 21:00:28,275 autoreload 15212 18240 Watching for file changes with StatReloader
+INFO 2024-02-15 21:01:20,993 autoreload 15212 18240 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\articleapp\urls.py changed, reloading.
+INFO 2024-02-15 21:01:21,936 autoreload 1332 8520 Watching for file changes with StatReloader
+INFO 2024-02-15 21:01:47,097 autoreload 1332 8520 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\articleapp\urls.py changed, reloading.
+INFO 2024-02-15 21:01:47,994 autoreload 2752 8244 Watching for file changes with StatReloader
+WARNING 2024-02-15 21:02:06,846 log 2752 18328 Not Found: /
+WARNING 2024-02-15 21:02:06,848 basehttp 2752 18328 "GET / HTTP/1.1" 404 2243
+WARNING 2024-02-15 21:02:07,013 log 2752 18328 Not Found: /favicon.ico
+WARNING 2024-02-15 21:02:07,013 basehttp 2752 18328 "GET /favicon.ico HTTP/1.1" 404 2294
+WARNING 2024-02-15 21:02:21,333 log 2752 18328 Not Found: /headtails
+WARNING 2024-02-15 21:02:21,333 basehttp 2752 18328 "GET /headtails HTTP/1.1" 404 2288
+INFO 2024-02-15 21:03:13,400 autoreload 2752 8244 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-15 21:03:14,311 autoreload 1080 15020 Watching for file changes with StatReloader
+WARNING 2024-02-15 21:03:31,297 log 1080 18240 Not Found: /randomapp/headtails
+WARNING 2024-02-15 21:03:31,297 basehttp 1080 18240 "GET /randomapp/headtails HTTP/1.1" 404 2438
+INFO 2024-02-15 21:03:54,911 autoreload 1080 15020 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\urls.py changed, reloading.
+INFO 2024-02-15 21:03:55,912 autoreload 3080 16436 Watching for file changes with StatReloader
+INFO 2024-02-15 21:03:57,556 basehttp 3080 16516 "GET /randomapp/headtails HTTP/1.1" 301 0
+ERROR 2024-02-15 21:03:57,659 log 3080 4372 Internal Server Error: /randomapp/headtails/
+Traceback (most recent call last):
+  File "C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: head_tails() takes 0 positional arguments but 1 was given
+ERROR 2024-02-15 21:03:57,659 basehttp 3080 4372 "GET /randomapp/headtails/ HTTP/1.1" 500 63730
+INFO 2024-02-15 21:05:00,156 autoreload 3080 16436 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:05:01,103 autoreload 16996 1724 Watching for file changes with StatReloader
+INFO 2024-02-15 21:05:05,048 autoreload 16996 1724 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:05:05,960 autoreload 5672 2220 Watching for file changes with StatReloader
+INFO 2024-02-15 21:05:10,999 autoreload 5672 2220 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:05:11,932 autoreload 12888 4556 Watching for file changes with StatReloader
+INFO 2024-02-15 21:05:31,855 autoreload 12888 4556 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:05:32,787 autoreload 4052 4888 Watching for file changes with StatReloader
+ERROR 2024-02-15 21:05:39,995 log 4052 11600 Internal Server Error: /randomapp/headtails/
+Traceback (most recent call last):
+  File "C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: head_tails() takes 0 positional arguments but 1 was given
+ERROR 2024-02-15 21:05:40,003 basehttp 4052 11600 "GET /randomapp/headtails/ HTTP/1.1" 500 63730
+ERROR 2024-02-15 21:05:41,011 log 4052 11600 Internal Server Error: /randomapp/headtails/
+Traceback (most recent call last):
+  File "C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: head_tails() takes 0 positional arguments but 1 was given
+ERROR 2024-02-15 21:05:41,011 basehttp 4052 11600 "GET /randomapp/headtails/ HTTP/1.1" 500 63730
+ERROR 2024-02-15 21:05:41,853 log 4052 11600 Internal Server Error: /randomapp/headtails/
+Traceback (most recent call last):
+  File "C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: head_tails() takes 0 positional arguments but 1 was given
+ERROR 2024-02-15 21:05:41,853 basehttp 4052 11600 "GET /randomapp/headtails/ HTTP/1.1" 500 63730
+INFO 2024-02-15 21:09:04,809 autoreload 4052 4888 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-15 21:09:05,747 autoreload 5552 14936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:10:38,005 autoreload 5552 14936 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\articleapp\urls.py changed, reloading.
+INFO 2024-02-15 21:10:39,016 autoreload 11776 9944 Watching for file changes with StatReloader
+INFO 2024-02-15 21:10:57,162 basehttp 11776 13064 "GET /artcleapp/ HTTP/1.1" 200 13
+INFO 2024-02-15 21:11:04,278 basehttp 11776 13064 "GET /artcleapp/about HTTP/1.1" 301 0
+INFO 2024-02-15 21:11:04,293 basehttp 11776 11532 "GET /artcleapp/about/ HTTP/1.1" 200 8
+INFO 2024-02-15 21:12:28,652 autoreload 11776 9944 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-15 21:12:29,629 autoreload 14172 7940 Watching for file changes with StatReloader
+INFO 2024-02-15 21:14:01,981 autoreload 14172 7940 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-15 21:14:02,964 autoreload 13380 3524 Watching for file changes with StatReloader
+INFO 2024-02-15 21:14:17,009 basehttp 13380 9692 "GET /artcleapp/ HTTP/1.1" 200 30
+INFO 2024-02-15 21:15:03,765 autoreload 13380 3524 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:15:04,710 autoreload 13320 3368 Watching for file changes with StatReloader
+WARNING 2024-02-15 21:15:15,824 log 13320 11764 Not Found: /randomapp
+WARNING 2024-02-15 21:15:15,824 basehttp 13320 11764 "GET /randomapp HTTP/1.1" 404 2327
+WARNING 2024-02-15 21:15:28,252 log 13320 11764 Not Found: /randomapp/
+WARNING 2024-02-15 21:15:28,253 basehttp 13320 11764 "GET /randomapp/ HTTP/1.1" 404 2411
+INFO 2024-02-15 21:16:06,649 autoreload 13320 3368 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\urls.py changed, reloading.
+INFO 2024-02-15 21:16:07,573 autoreload 3768 9048 Watching for file changes with StatReloader
+INFO 2024-02-15 21:16:13,213 basehttp 3768 4072 "GET /randomapp/ HTTP/1.1" 200 5
+INFO 2024-02-15 21:16:57,744 autoreload 3768 9048 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\urls.py changed, reloading.
+INFO 2024-02-15 21:16:58,694 autoreload 17608 5104 Watching for file changes with StatReloader
+INFO 2024-02-15 21:17:01,635 basehttp 17608 688 "GET /randomapp/ HTTP/1.1" 200 29
+INFO 2024-02-15 21:17:13,242 basehttp 17608 688 "GET /randomapp/headtails/ HTTP/1.1" 200 5
+INFO 2024-02-15 21:17:17,008 basehttp 17608 688 "GET /randomapp/headtails/ HTTP/1.1" 200 5
+INFO 2024-02-15 21:17:17,509 basehttp 17608 688 "GET /randomapp/headtails/ HTTP/1.1" 200 5
+INFO 2024-02-15 21:17:17,993 basehttp 17608 688 "GET /randomapp/headtails/ HTTP/1.1" 200 5
+INFO 2024-02-15 21:17:19,230 basehttp 17608 688 "GET /randomapp/headtails/ HTTP/1.1" 200 5
+INFO 2024-02-15 21:19:14,124 autoreload 17608 5104 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:19:15,098 autoreload 18328 5448 Watching for file changes with StatReloader
+INFO 2024-02-15 21:19:21,192 autoreload 18328 5448 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:19:22,143 autoreload 5076 5892 Watching for file changes with StatReloader
+INFO 2024-02-15 21:21:36,110 autoreload 5076 5892 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:21:37,145 autoreload 4368 15188 Watching for file changes with StatReloader
+INFO 2024-02-15 21:22:24,633 autoreload 4368 15188 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:22:25,546 autoreload 11560 12980 Watching for file changes with StatReloader
+INFO 2024-02-15 21:22:44,476 autoreload 11560 12980 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:22:45,390 autoreload 8328 6000 Watching for file changes with StatReloader
+INFO 2024-02-15 21:22:54,736 autoreload 8328 6000 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:22:55,674 autoreload 14892 1580 Watching for file changes with StatReloader
+INFO 2024-02-15 21:23:29,532 autoreload 14892 1580 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\urls.py changed, reloading.
+INFO 2024-02-15 21:23:30,442 autoreload 16224 9920 Watching for file changes with StatReloader
+INFO 2024-02-15 21:24:07,414 autoreload 16224 9920 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\urls.py changed, reloading.
+INFO 2024-02-15 21:24:08,360 autoreload 9704 10508 Watching for file changes with StatReloader
+INFO 2024-02-15 21:24:28,532 basehttp 9704 11692 "GET /randomapp/headtails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:24:30,658 basehttp 9704 11692 "GET /randomapp/headtails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:24:31,104 basehttp 9704 11692 "GET /randomapp/headtails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:24:31,443 basehttp 9704 11692 "GET /randomapp/headtails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:24:31,743 basehttp 9704 11692 "GET /randomapp/headtails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:24:36,479 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:39,823 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:40,343 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:40,627 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:40,910 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:41,143 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:41,551 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:41,761 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:41,952 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:42,155 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:42,403 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:42,632 basehttp 9704 11692 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:24:55,327 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:24:59,514 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:24:59,772 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:24:59,986 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:00,150 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:00,326 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:00,493 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:00,626 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:01,164 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:25:01,381 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:01,899 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:02,078 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:02,259 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:02,440 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:02,604 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:02,771 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:25:02,955 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:03,393 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:03,595 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:03,840 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:04,042 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:04,216 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:04,376 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:04,639 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:04,882 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:05,061 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:05,226 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:25:05,395 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:05,561 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:05,987 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:06,204 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:06,406 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:06,784 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:06,963 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:25:07,260 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:25:07,514 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:07,783 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:08,036 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:08,299 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:08,540 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:08,761 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:09,011 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:09,261 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:09,522 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:25:09,768 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:10,147 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:10,388 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:25:10,602 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:25:10,826 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:25:11,089 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:11,299 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:11,511 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:11,706 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:11,915 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:12,129 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:12,360 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:12,551 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:12,768 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:12,969 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:13,188 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:25:13,422 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:13,652 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:13,862 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:14,078 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:14,276 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:25:14,500 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:14,700 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:14,897 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:15,072 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:25:15,257 basehttp 9704 11692 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:30:36,141 autoreload 9704 10508 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-15 21:30:37,131 autoreload 7272 1404 Watching for file changes with StatReloader
+INFO 2024-02-15 21:30:42,216 autoreload 7272 1404 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-15 21:30:43,205 autoreload 2544 10496 Watching for file changes with StatReloader
+INFO 2024-02-15 21:30:54,669 autoreload 2544 10496 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-15 21:30:55,615 autoreload 13740 13428 Watching for file changes with StatReloader
+INFO 2024-02-15 21:31:02,806 autoreload 13740 13428 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-15 21:31:03,711 autoreload 7280 7052 Watching for file changes with StatReloader
+INFO 2024-02-15 21:31:53,498 autoreload 7280 7052 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-15 21:31:54,401 autoreload 17964 16948 Watching for file changes with StatReloader
+INFO 2024-02-15 21:32:36,766 autoreload 17964 16948 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-15 21:32:37,714 autoreload 4516 12312 Watching for file changes with StatReloader
+INFO 2024-02-15 21:34:18,624 autoreload 4516 12312 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:34:19,589 autoreload 9440 12220 Watching for file changes with StatReloader
+INFO 2024-02-15 21:34:25,762 autoreload 9440 12220 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:34:26,767 autoreload 11540 15088 Watching for file changes with StatReloader
+INFO 2024-02-15 21:34:33,891 autoreload 11540 15088 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\urls.py changed, reloading.
+INFO 2024-02-15 21:34:34,861 autoreload 16872 14284 Watching for file changes with StatReloader
+INFO 2024-02-15 21:37:18,955 autoreload 16872 14284 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-15 21:37:19,890 autoreload 9184 11172 Watching for file changes with StatReloader
+INFO 2024-02-15 21:37:45,077 autoreload 9184 11172 C:\Users\RND\Documents\RP\19_Django\Sem\DjangoSem\myproject\randomapp\urls.py changed, reloading.
+INFO 2024-02-15 21:37:46,012 autoreload 14172 17704 Watching for file changes with StatReloader
+INFO 2024-02-15 21:38:39,267 views 14172 7008 articleapp - index
+INFO 2024-02-15 21:38:39,272 basehttp 14172 7008 "GET /artcleapp/ HTTP/1.1" 200 30
+INFO 2024-02-15 21:38:49,747 views 14172 7008 articleapp - about us
+INFO 2024-02-15 21:38:49,753 basehttp 14172 7008 "GET /artcleapp/about/ HTTP/1.1" 200 8
+INFO 2024-02-15 21:39:03,682 views 14172 7008 ranadomapp - index
+INFO 2024-02-15 21:39:03,682 basehttp 14172 7008 "GET /randomapp/ HTTP/1.1" 200 29
+WARNING 2024-02-15 21:39:11,028 log 14172 7008 Not Found: /randomapp/headtails/
+WARNING 2024-02-15 21:39:11,034 basehttp 14172 7008 "GET /randomapp/headtails/ HTTP/1.1" 404 2974
+INFO 2024-02-15 21:39:15,411 views 14172 7008 heads and tails: HEADS
+INFO 2024-02-15 21:39:15,411 basehttp 14172 7008 "GET /randomapp/headstails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:39:19,675 views 14172 7008 heads and tails: TAILS
+INFO 2024-02-15 21:39:19,678 basehttp 14172 7008 "GET /randomapp/headstails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:39:20,681 views 14172 7008 heads and tails: TAILS
+INFO 2024-02-15 21:39:20,683 basehttp 14172 7008 "GET /randomapp/headstails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:39:21,296 views 14172 7008 heads and tails: TAILS
+INFO 2024-02-15 21:39:21,297 basehttp 14172 7008 "GET /randomapp/headstails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:39:22,045 views 14172 7008 heads and tails: TAILS
+INFO 2024-02-15 21:39:22,057 basehttp 14172 7008 "GET /randomapp/headstails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:39:23,286 views 14172 7008 heads and tails: TAILS
+INFO 2024-02-15 21:39:23,295 basehttp 14172 7008 "GET /randomapp/headstails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:39:24,698 views 14172 7008 heads and tails: TAILS
+INFO 2024-02-15 21:39:24,698 basehttp 14172 7008 "GET /randomapp/headstails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:39:25,537 views 14172 7008 heads and tails: HEADS
+INFO 2024-02-15 21:39:25,537 basehttp 14172 7008 "GET /randomapp/headstails/ HTTP/1.1" 200 14
+INFO 2024-02-15 21:39:40,430 views 14172 7008 dice: 3
+INFO 2024-02-15 21:39:40,430 basehttp 14172 7008 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:39:44,871 views 14172 7008 dice: 1
+INFO 2024-02-15 21:39:44,875 basehttp 14172 7008 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:39:45,248 views 14172 7008 dice: 6
+INFO 2024-02-15 21:39:45,260 basehttp 14172 7008 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:39:45,602 views 14172 7008 dice: 2
+INFO 2024-02-15 21:39:45,602 basehttp 14172 7008 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:39:45,913 views 14172 7008 dice: 3
+INFO 2024-02-15 21:39:45,913 basehttp 14172 7008 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:39:46,206 views 14172 7008 dice: 4
+INFO 2024-02-15 21:39:46,215 basehttp 14172 7008 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:39:46,463 views 14172 7008 dice: 6
+INFO 2024-02-15 21:39:46,463 basehttp 14172 7008 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:39:46,719 views 14172 7008 dice: 3
+INFO 2024-02-15 21:39:46,719 basehttp 14172 7008 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:39:46,952 views 14172 7008 dice: 3
+INFO 2024-02-15 21:39:46,957 basehttp 14172 7008 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:39:47,166 views 14172 7008 dice: 4
+INFO 2024-02-15 21:39:47,166 basehttp 14172 7008 "GET /randomapp/dice/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:40:02,508 views 14172 7008 dice: 0
+INFO 2024-02-15 21:40:02,508 basehttp 14172 7008 "GET /randomapp/randomint/ HTTP/1.1" 200 10
+INFO 2024-02-15 21:40:07,132 views 14172 7008 dice: 27
+INFO 2024-02-15 21:40:07,135 basehttp 14172 7008 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:40:07,585 views 14172 7008 dice: 79
+INFO 2024-02-15 21:40:07,587 basehttp 14172 7008 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:40:07,970 views 14172 7008 dice: 98
+INFO 2024-02-15 21:40:07,971 basehttp 14172 7008 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:40:08,285 views 14172 7008 dice: 22
+INFO 2024-02-15 21:40:08,285 basehttp 14172 7008 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:40:08,997 views 14172 7008 dice: 50
+INFO 2024-02-15 21:40:08,997 basehttp 14172 7008 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:40:09,270 views 14172 7008 dice: 76
+INFO 2024-02-15 21:40:09,270 basehttp 14172 7008 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:40:09,714 views 14172 7008 dice: 31
+INFO 2024-02-15 21:40:09,715 basehttp 14172 7008 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-15 21:40:10,299 views 14172 7008 dice: 31
+INFO 2024-02-15 21:40:10,300 basehttp 14172 7008 "GET /randomapp/randomint/ HTTP/1.1" 200 11

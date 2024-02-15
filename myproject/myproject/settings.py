@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'articleapp',
+    'randomapp',
 ]
 
 MIDDLEWARE = [
@@ -155,6 +156,11 @@ LOGGING = {
             'level': 'INFO',
         },
         'articleapp': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'randomapp': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
