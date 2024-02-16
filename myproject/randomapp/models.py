@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
+class HeadsTailsResult(models.Model):
+    result = models.CharField(max_length=5)
+    time = models.DateTimeField()

@@ -281,3 +281,88 @@ INFO 2024-02-15 21:40:09,714 views 14172 7008 dice: 31
 INFO 2024-02-15 21:40:09,715 basehttp 14172 7008 "GET /randomapp/randomint/ HTTP/1.1" 200 11
 INFO 2024-02-15 21:40:10,299 views 14172 7008 dice: 31
 INFO 2024-02-15 21:40:10,300 basehttp 14172 7008 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+INFO 2024-02-16 11:08:15,018 autoreload 7868 9184 Watching for file changes with StatReloader
+WARNING 2024-02-16 11:08:26,823 log 7868 4868 Not Found: /
+WARNING 2024-02-16 11:08:26,823 basehttp 7868 4868 "GET / HTTP/1.1" 404 2282
+WARNING 2024-02-16 11:08:27,836 log 7868 4868 Not Found: /
+WARNING 2024-02-16 11:08:27,838 basehttp 7868 4868 "GET / HTTP/1.1" 404 2282
+WARNING 2024-02-16 11:08:27,956 log 7868 4868 Not Found: /favicon.ico
+WARNING 2024-02-16 11:08:27,957 basehttp 7868 4868 "GET /favicon.ico HTTP/1.1" 404 2333
+INFO 2024-02-16 11:08:49,731 basehttp 7868 22020 "GET /randomapp HTTP/1.1" 301 0
+INFO 2024-02-16 11:08:49,736 views 7868 21652 ranadomapp - index
+INFO 2024-02-16 11:08:49,736 basehttp 7868 21652 "GET /randomapp/ HTTP/1.1" 200 29
+INFO 2024-02-16 11:09:15,405 basehttp 7868 6596 "GET /randomapp/headstails HTTP/1.1" 301 0
+INFO 2024-02-16 11:09:15,412 views 7868 18728 HEADS
+INFO 2024-02-16 11:09:15,414 views 7868 18728 HeadsTails #None Model created
+INFO 2024-02-16 11:09:15,415 basehttp 7868 18728 "GET /randomapp/headstails/ HTTP/1.1" 200 41
+INFO 2024-02-16 11:09:28,422 views 7868 18728 HEADS
+INFO 2024-02-16 11:09:28,423 views 7868 18728 HeadsTails #None Model created
+INFO 2024-02-16 11:09:28,424 basehttp 7868 18728 "GET /randomapp/headstails/ HTTP/1.1" 200 41
+INFO 2024-02-16 11:09:29,942 views 7868 18728 HEADS
+INFO 2024-02-16 11:09:29,944 views 7868 18728 HeadsTails #None Model created
+INFO 2024-02-16 11:09:29,947 basehttp 7868 18728 "GET /randomapp/headstails/ HTTP/1.1" 200 41
+INFO 2024-02-16 11:09:30,587 views 7868 18728 HEADS
+INFO 2024-02-16 11:09:30,588 views 7868 18728 HeadsTails #None Model created
+INFO 2024-02-16 11:09:30,592 basehttp 7868 18728 "GET /randomapp/headstails/ HTTP/1.1" 200 41
+INFO 2024-02-16 11:10:39,442 autoreload 7868 9184 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-16 11:10:40,213 autoreload 17032 18100 Watching for file changes with StatReloader
+INFO 2024-02-16 11:10:45,488 views 17032 8016 HEADS
+ERROR 2024-02-16 11:10:45,592 log 17032 8016 Internal Server Error: /randomapp/headstails/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 23, in heads_tails
+    game_result.save()
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1747, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1013, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1006, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1183, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1173, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“HEADS” value must be either True or False.']
+ERROR 2024-02-16 11:10:45,606 basehttp 17032 8016 "GET /randomapp/headstails/ HTTP/1.1" 500 130506
+INFO 2024-02-16 11:11:38,694 autoreload 17032 18100 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\models.py changed, reloading.
+INFO 2024-02-16 11:11:39,642 autoreload 16236 17316 Watching for file changes with StatReloader
+INFO 2024-02-16 11:11:47,831 views 16236 13844 HEADS
+INFO 2024-02-16 11:11:47,892 views 16236 13844 HeadsTails #1 Model created
+INFO 2024-02-16 11:11:47,894 basehttp 16236 13844 "GET /randomapp/headstails/ HTTP/1.1" 200 41
+INFO 2024-02-16 11:11:50,602 views 16236 13844 HEADS
+INFO 2024-02-16 11:11:50,629 views 16236 13844 HeadsTails #2 Model created
+INFO 2024-02-16 11:11:50,630 basehttp 16236 13844 "GET /randomapp/headstails/ HTTP/1.1" 200 41
+INFO 2024-02-16 11:11:51,190 views 16236 13844 HEADS
+INFO 2024-02-16 11:11:51,216 views 16236 13844 HeadsTails #3 Model created
+INFO 2024-02-16 11:11:51,218 basehttp 16236 13844 "GET /randomapp/headstails/ HTTP/1.1" 200 41
