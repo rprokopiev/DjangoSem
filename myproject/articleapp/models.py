@@ -22,7 +22,7 @@ class Article(models.Model):
     is_published = models.BooleanField(default=False)
 
     def __str__(self) -> str:
-        return f'{self.title}'
+        return f'{self.title} автора {self.author.first_name}.'
     
 
 class Comment(models.Model):
@@ -33,4 +33,4 @@ class Comment(models.Model):
     modified_date = models.DateTimeField(auto_now=True)
 
     def __str__(self) -> str:
-        return f'Комментарий статьи {self.article} от {self.author}'
+        return f'Комментарий автора {self.author} на статью {self.article}'
