@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'articleapp',
     'randomapp',
+    'hw1app',
 ]
 
 MIDDLEWARE = [
@@ -161,6 +162,11 @@ LOGGING = {
             'propagate': True,
         },
         'randomapp': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'hw1app': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,

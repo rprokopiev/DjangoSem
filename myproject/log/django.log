@@ -366,3 +366,839 @@ INFO 2024-02-16 11:11:50,630 basehttp 16236 13844 "GET /randomapp/headstails/ HT
 INFO 2024-02-16 11:11:51,190 views 16236 13844 HEADS
 INFO 2024-02-16 11:11:51,216 views 16236 13844 HeadsTails #3 Model created
 INFO 2024-02-16 11:11:51,218 basehttp 16236 13844 "GET /randomapp/headstails/ HTTP/1.1" 200 41
+INFO 2024-02-19 14:58:08,157 autoreload 19760 20164 Watching for file changes with StatReloader
+INFO 2024-02-19 14:59:54,684 autoreload 2824 8020 Watching for file changes with StatReloader
+INFO 2024-02-19 15:00:13,730 autoreload 2824 8020 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-19 15:00:14,424 autoreload 15456 15668 Watching for file changes with StatReloader
+INFO 2024-02-19 15:00:27,410 autoreload 15456 15668 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\hw1app\urls.py changed, reloading.
+INFO 2024-02-19 15:00:28,033 autoreload 14764 6960 Watching for file changes with StatReloader
+WARNING 2024-02-19 15:00:31,018 log 14764 17456 Not Found: /
+WARNING 2024-02-19 15:00:31,020 basehttp 14764 17456 "GET / HTTP/1.1" 404 2614
+WARNING 2024-02-19 15:00:31,360 log 14764 17456 Not Found: /favicon.ico
+WARNING 2024-02-19 15:00:31,362 basehttp 14764 17456 "GET /favicon.ico HTTP/1.1" 404 2665
+INFO 2024-02-19 15:00:40,520 basehttp 14764 15508 "GET /hw1app HTTP/1.1" 301 0
+INFO 2024-02-19 15:00:40,526 views 14764 1100 INDEX page raised
+INFO 2024-02-19 15:00:40,527 basehttp 14764 1100 "GET /hw1app/ HTTP/1.1" 200 63
+INFO 2024-02-19 15:00:47,371 basehttp 14764 3024 "GET /hw1app/about HTTP/1.1" 301 0
+INFO 2024-02-19 15:00:47,377 views 14764 572 ABOUT page raised
+INFO 2024-02-19 15:00:47,377 basehttp 14764 572 "GET /hw1app/about/ HTTP/1.1" 200 66
+INFO 2024-02-19 15:00:54,062 basehttp 14764 4716 "GET /hw1app/main HTTP/1.1" 301 0
+INFO 2024-02-19 15:00:54,067 views 14764 7944 MAIN page raised
+INFO 2024-02-19 15:00:54,067 basehttp 14764 7944 "GET /hw1app/main/ HTTP/1.1" 200 62
+WARNING 2024-02-19 15:01:05,308 log 14764 18580 Not Found: /about/
+WARNING 2024-02-19 15:01:05,313 basehttp 14764 18580 "GET /about/ HTTP/1.1" 404 2650
+WARNING 2024-02-19 15:01:07,574 log 14764 18580 Not Found: /articleapp
+WARNING 2024-02-19 15:01:07,575 basehttp 14764 18580 "GET /articleapp HTTP/1.1" 404 2662
+WARNING 2024-02-19 15:01:51,824 log 14764 10924 Not Found: /articleapp/
+WARNING 2024-02-19 15:01:51,825 basehttp 14764 10924 "GET /articleapp/ HTTP/1.1" 404 2665
+INFO 2024-02-19 15:02:37,997 autoreload 14764 6960 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\myproject\settings.py changed, reloading.
+INFO 2024-02-19 15:02:38,697 autoreload 9800 9900 Watching for file changes with StatReloader
+WARNING 2024-02-19 15:02:43,331 log 9800 10488 Not Found: /articleapp/
+WARNING 2024-02-19 15:02:43,332 basehttp 9800 10488 "GET /articleapp/ HTTP/1.1" 404 2665
+INFO 2024-02-19 15:02:49,995 views 9800 2824 ranadomapp - index
+INFO 2024-02-19 15:02:49,998 basehttp 9800 2824 "GET /randomapp/ HTTP/1.1" 200 29
+INFO 2024-02-19 15:03:22,843 views 9800 10896 HEADS
+INFO 2024-02-19 15:03:22,904 views 9800 10896 HeadsTails #9 Model created
+INFO 2024-02-19 15:03:22,906 basehttp 9800 10896 "GET /randomapp/headstails/ HTTP/1.1" 200 41
+INFO 2024-02-19 15:03:31,612 views 9800 9280 dice: 1
+INFO 2024-02-19 15:03:31,615 basehttp 9800 9280 "GET /randomapp/dice/ HTTP/1.1" 200 10
+WARNING 2024-02-19 15:03:39,863 log 9800 9016 Not Found: /randomapp/randoming/
+WARNING 2024-02-19 15:03:39,865 basehttp 9800 9016 "GET /randomapp/randoming/ HTTP/1.1" 404 3306
+INFO 2024-02-19 15:03:43,837 views 9800 9016 dice: 82
+INFO 2024-02-19 15:03:43,839 basehttp 9800 9016 "GET /randomapp/randomint/ HTTP/1.1" 200 11
+WARNING 2024-02-19 15:03:48,904 log 9800 1548 Not Found: /about/
+WARNING 2024-02-19 15:03:48,906 basehttp 9800 1548 "GET /about/ HTTP/1.1" 404 2650
+WARNING 2024-02-19 15:03:54,597 log 9800 18700 Not Found: /articleapp
+WARNING 2024-02-19 15:03:54,599 basehttp 9800 18700 "GET /articleapp HTTP/1.1" 404 2662
+INFO 2024-02-19 15:04:21,235 autoreload 9800 9900 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\myproject\urls.py changed, reloading.
+INFO 2024-02-19 15:04:21,944 autoreload 4668 15652 Watching for file changes with StatReloader
+INFO 2024-02-19 15:04:23,856 basehttp 4668 3244 "GET /articleapp HTTP/1.1" 301 0
+INFO 2024-02-19 15:04:23,864 views 4668 17980 articleapp - index
+INFO 2024-02-19 15:04:23,866 basehttp 4668 17980 "GET /articleapp/ HTTP/1.1" 200 30
+INFO 2024-02-19 15:04:42,154 basehttp 4668 3908 "GET /articleapp/about HTTP/1.1" 301 0
+INFO 2024-02-19 15:04:42,158 views 4668 5112 articleapp - about us
+INFO 2024-02-19 15:04:42,159 basehttp 4668 5112 "GET /articleapp/about/ HTTP/1.1" 200 8
+INFO 2024-02-19 15:13:01,613 autoreload 11448 1284 Watching for file changes with StatReloader
+INFO 2024-02-19 15:13:04,316 autoreload 11448 1284 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\hw1app\views.py changed, reloading.
+INFO 2024-02-19 15:13:05,058 autoreload 2156 13784 Watching for file changes with StatReloader
+WARNING 2024-02-19 15:13:16,707 log 2156 6136 Not Found: /
+WARNING 2024-02-19 15:13:16,709 basehttp 2156 6136 "GET / HTTP/1.1" 404 2615
+WARNING 2024-02-19 15:13:17,353 log 2156 6136 Not Found: /
+WARNING 2024-02-19 15:13:17,354 basehttp 2156 6136 "GET / HTTP/1.1" 404 2615
+INFO 2024-02-19 15:13:28,092 views 2156 18980 MAIN page raised
+INFO 2024-02-19 15:13:28,093 basehttp 2156 18980 "GET /hw1app/main/ HTTP/1.1" 200 62
+INFO 2024-02-19 15:13:31,639 views 2156 18980 INDEX page raised
+ERROR 2024-02-19 15:13:31,707 log 2156 18980 Internal Server Error: /hw1app/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\hw1app\views.py", line 12, in index
+    return render(request, 'hw1app/tempalates.html', text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: hw1app/tempalates.html
+ERROR 2024-02-19 15:13:31,714 basehttp 2156 18980 "GET /hw1app/ HTTP/1.1" 500 83521
+INFO 2024-02-19 15:13:58,997 autoreload 2156 13784 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\hw1app\views.py changed, reloading.
+INFO 2024-02-19 15:13:59,726 autoreload 11784 17236 Watching for file changes with StatReloader
+INFO 2024-02-19 15:14:02,612 views 11784 19400 INDEX page raised
+ERROR 2024-02-19 15:14:02,683 log 11784 19400 Internal Server Error: /hw1app/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\hw1app\views.py", line 12, in index
+    return render(request, 'hw1app/index.html', text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\backends\django.py", line 57, in render
+    context = make_context(
+              ^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\context.py", line 286, in make_context
+    raise TypeError(
+TypeError: context must be a dict rather than str.
+ERROR 2024-02-19 15:14:02,692 basehttp 11784 19400 "GET /hw1app/ HTTP/1.1" 500 85340
+INFO 2024-02-19 15:14:48,280 autoreload 11784 17236 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\hw1app\views.py changed, reloading.
+INFO 2024-02-19 15:14:48,989 autoreload 19400 3696 Watching for file changes with StatReloader
+INFO 2024-02-19 15:14:50,240 views 19400 13396 INDEX page raised
+INFO 2024-02-19 15:14:50,262 basehttp 19400 13396 "GET /hw1app/ HTTP/1.1" 200 228
+INFO 2024-02-19 15:15:07,513 views 19400 11616 INDEX page raised
+INFO 2024-02-19 15:15:07,518 basehttp 19400 11616 "GET /hw1app/ HTTP/1.1" 200 244
+INFO 2024-02-19 15:15:29,877 autoreload 19400 3696 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\hw1app\views.py changed, reloading.
+INFO 2024-02-19 15:15:30,494 autoreload 20196 18040 Watching for file changes with StatReloader
+INFO 2024-02-19 15:15:33,001 views 20196 11904 INDEX page raised
+INFO 2024-02-19 15:15:33,012 basehttp 20196 11904 "GET /hw1app/ HTTP/1.1" 200 255
+INFO 2024-02-19 15:15:46,172 autoreload 20196 18040 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\hw1app\views.py changed, reloading.
+INFO 2024-02-19 15:15:47,099 autoreload 11616 10372 Watching for file changes with StatReloader
+INFO 2024-02-19 15:26:21,705 autoreload 12332 1308 Watching for file changes with StatReloader
+INFO 2024-02-19 15:26:28,345 views 12332 5112 INDEX page raised
+INFO 2024-02-19 15:26:28,356 basehttp 12332 5112 "GET /hw1app/ HTTP/1.1" 200 354
+INFO 2024-02-19 15:27:14,554 views 12332 15120 INDEX page raised
+INFO 2024-02-19 15:27:14,560 basehttp 12332 15120 "GET /hw1app/ HTTP/1.1" 200 354
+INFO 2024-02-19 15:28:36,674 views 12332 9820 INDEX page raised
+INFO 2024-02-19 15:28:36,680 basehttp 12332 9820 "GET /hw1app/ HTTP/1.1" 200 355
+INFO 2024-02-19 15:30:06,795 autoreload 12332 1308 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\hw1app\views.py changed, reloading.
+INFO 2024-02-19 15:30:07,526 autoreload 4256 13136 Watching for file changes with StatReloader
+INFO 2024-02-19 15:30:13,095 views 4256 4960 MAIN page raised
+INFO 2024-02-19 15:30:13,101 basehttp 4256 4960 "GET /hw1app/main/ HTTP/1.1" 200 415
+INFO 2024-02-19 15:33:58,235 autoreload 4256 13136 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\hw1app\views.py changed, reloading.
+INFO 2024-02-19 15:33:58,946 autoreload 6508 2472 Watching for file changes with StatReloader
+INFO 2024-02-19 15:34:19,135 views 6508 15536 ABOUT page raised
+INFO 2024-02-19 15:34:19,141 basehttp 6508 15536 "GET /hw1app/about/ HTTP/1.1" 200 400
+INFO 2024-02-19 16:02:33,773 autoreload 6508 2472 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\models.py changed, reloading.
+INFO 2024-02-19 16:02:34,676 autoreload 728 12944 Watching for file changes with StatReloader
+INFO 2024-02-19 16:20:20,274 autoreload 21476 14840 Watching for file changes with StatReloader
+INFO 2024-02-19 16:20:42,155 views 21476 12084 ranadomapp - index
+INFO 2024-02-19 16:20:42,157 basehttp 21476 12084 "GET /randomapp/ HTTP/1.1" 200 29
+INFO 2024-02-19 16:22:28,342 autoreload 21476 14840 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-19 16:22:29,051 autoreload 19292 7412 Watching for file changes with StatReloader
+INFO 2024-02-19 16:22:31,641 views 19292 4404 ranadomapp - index
+INFO 2024-02-19 16:22:31,676 basehttp 19292 4404 "GET /randomapp/ HTTP/1.1" 200 488
+INFO 2024-02-19 16:23:21,494 views 19292 17604 ranadomapp - index
+INFO 2024-02-19 16:23:21,499 basehttp 19292 17604 "GET /randomapp/ HTTP/1.1" 200 492
+WARNING 2024-02-19 16:23:26,824 log 19292 17604 Not Found: /randomapp/heads_tails/
+WARNING 2024-02-19 16:23:26,825 basehttp 19292 17604 "GET /randomapp/heads_tails/ HTTP/1.1" 404 3313
+INFO 2024-02-19 16:26:25,121 views 19292 12504 TAILS
+INFO 2024-02-19 16:26:25,160 views 19292 12504 HeadsTails #10 Model created
+ERROR 2024-02-19 16:26:25,199 log 19292 12504 Internal Server Error: /randomapp/headstails/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 24, in heads_tails
+    return render(result, 'randomapp/heads_tails.html', context={'result': game_result.result})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: randomapp/heads_tails.html
+ERROR 2024-02-19 16:26:25,211 basehttp 19292 12504 "GET /randomapp/headstails/ HTTP/1.1" 500 84593
+INFO 2024-02-19 16:26:33,928 views 19292 12504 ranadomapp - index
+INFO 2024-02-19 16:26:33,933 basehttp 19292 12504 "GET /randomapp/ HTTP/1.1" 200 490
+INFO 2024-02-19 16:26:36,427 views 19292 12504 HEADS
+INFO 2024-02-19 16:26:36,443 views 19292 12504 HeadsTails #11 Model created
+ERROR 2024-02-19 16:26:36,464 log 19292 12504 Internal Server Error: /randomapp/headstails/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 24, in heads_tails
+    return render(result, 'randomapp/heads_tails.html', context={'result': game_result.result})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: randomapp/heads_tails.html
+ERROR 2024-02-19 16:26:36,472 basehttp 19292 12504 "GET /randomapp/headstails/ HTTP/1.1" 500 84754
+INFO 2024-02-19 16:27:23,196 autoreload 14320 4940 Watching for file changes with StatReloader
+WARNING 2024-02-19 16:27:27,697 log 14320 19464 Not Found: /
+WARNING 2024-02-19 16:27:27,698 basehttp 14320 19464 "GET / HTTP/1.1" 404 2615
+INFO 2024-02-19 16:27:36,629 views 14320 17832 ranadomapp - index
+INFO 2024-02-19 16:27:36,633 basehttp 14320 17832 "GET /randomapp/ HTTP/1.1" 200 490
+INFO 2024-02-19 16:27:40,241 views 14320 11016 HEADS
+INFO 2024-02-19 16:27:40,276 views 14320 11016 HeadsTails #12 Model created
+ERROR 2024-02-19 16:27:40,304 log 14320 11016 Internal Server Error: /randomapp/headstails/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 24, in heads_tails
+    return render(result, 'randomapp/heads_tails.html', context={'result': game_result.result})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: randomapp/heads_tails.html
+ERROR 2024-02-19 16:27:40,311 basehttp 14320 11016 "GET /randomapp/headstails/ HTTP/1.1" 500 84754
+INFO 2024-02-19 16:28:15,156 autoreload 14320 4940 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-19 16:28:15,833 autoreload 9800 2208 Watching for file changes with StatReloader
+INFO 2024-02-19 16:28:19,590 views 9800 20652 HEADS
+INFO 2024-02-19 16:28:19,642 views 9800 20652 HeadsTails #13 Model created
+ERROR 2024-02-19 16:28:19,693 log 9800 20652 Internal Server Error: /randomapp/headstails/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 24, in heads_tails
+    return render(result, 'randomapp/headstails.html', context={'result': game_result.result})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\rprokopiev\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\context.py", line 254, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\context_processors.py", line 41, in debug
+    if settings.DEBUG and request.META.get("REMOTE_ADDR") in settings.INTERNAL_IPS:
+                          ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'META'
+ERROR 2024-02-19 16:28:19,704 basehttp 9800 20652 "GET /randomapp/headstails/ HTTP/1.1" 500 99284
+INFO 2024-02-19 16:28:24,937 autoreload 9800 2208 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\models.py changed, reloading.
+INFO 2024-02-19 16:28:25,598 autoreload 10260 4960 Watching for file changes with StatReloader
+INFO 2024-02-19 16:28:31,435 autoreload 10260 4960 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\urls.py changed, reloading.
+INFO 2024-02-19 16:28:32,388 autoreload 9184 12852 Watching for file changes with StatReloader
+INFO 2024-02-19 16:28:42,625 views 9184 14908 TAILS
+INFO 2024-02-19 16:28:42,677 views 9184 14908 HeadsTails #14 Model created
+ERROR 2024-02-19 16:28:42,714 log 9184 14908 Internal Server Error: /randomapp/headstails/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 24, in heads_tails
+    return render(result, 'randomapp/headstails.html', context={'result': game_result.result})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\rprokopiev\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\context.py", line 254, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\context_processors.py", line 41, in debug
+    if settings.DEBUG and request.META.get("REMOTE_ADDR") in settings.INTERNAL_IPS:
+                          ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'META'
+ERROR 2024-02-19 16:28:42,724 basehttp 9184 14908 "GET /randomapp/headstails/ HTTP/1.1" 500 99284
+INFO 2024-02-19 16:32:55,602 autoreload 15644 6892 Watching for file changes with StatReloader
+WARNING 2024-02-19 16:33:00,811 log 15644 20796 Not Found: /
+WARNING 2024-02-19 16:33:00,811 basehttp 15644 20796 "GET / HTTP/1.1" 404 2615
+WARNING 2024-02-19 16:33:01,063 log 15644 20796 Not Found: /
+WARNING 2024-02-19 16:33:01,064 basehttp 15644 20796 "GET / HTTP/1.1" 404 2615
+INFO 2024-02-19 16:33:08,132 views 15644 20796 ranadomapp - index
+INFO 2024-02-19 16:33:08,137 basehttp 15644 20796 "GET /randomapp/ HTTP/1.1" 200 490
+INFO 2024-02-19 16:33:11,788 views 15644 17036 TAILS
+INFO 2024-02-19 16:33:11,817 views 15644 17036 HeadsTails #15 Model created
+ERROR 2024-02-19 16:33:11,854 log 15644 17036 Internal Server Error: /randomapp/headstails/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 24, in heads_tails
+    return render(result, 'randomapp/headstails.html', context={'result': game_result.result})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\rprokopiev\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\context.py", line 254, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\context_processors.py", line 41, in debug
+    if settings.DEBUG and request.META.get("REMOTE_ADDR") in settings.INTERNAL_IPS:
+                          ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'META'
+ERROR 2024-02-19 16:33:11,866 basehttp 15644 17036 "GET /randomapp/headstails/ HTTP/1.1" 500 99147
+INFO 2024-02-19 16:35:55,687 autoreload 15644 6892 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-19 16:35:56,364 autoreload 14596 12048 Watching for file changes with StatReloader
+INFO 2024-02-19 16:35:59,692 views 14596 6068 TAILS
+INFO 2024-02-19 16:35:59,753 views 14596 6068 HeadsTails #16 Model created
+ERROR 2024-02-19 16:35:59,803 log 14596 6068 Internal Server Error: /randomapp/headstails/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 24, in heads_tails
+    return render(result, 'randomapp/headstails.html', context={'result': f'{game_result.result}'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\rprokopiev\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\context.py", line 254, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\context_processors.py", line 41, in debug
+    if settings.DEBUG and request.META.get("REMOTE_ADDR") in settings.INTERNAL_IPS:
+                          ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'META'
+ERROR 2024-02-19 16:35:59,815 basehttp 14596 6068 "GET /randomapp/headstails/ HTTP/1.1" 500 99163
+INFO 2024-02-19 16:37:22,912 autoreload 14596 12048 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-19 16:37:23,545 autoreload 20656 18456 Watching for file changes with StatReloader
+INFO 2024-02-19 16:37:25,868 views 20656 10476 TAILS
+INFO 2024-02-19 16:37:25,934 views 20656 10476 HeadsTails #17 Model created
+INFO 2024-02-19 16:37:25,935 basehttp 20656 10476 "GET /randomapp/headstails/ HTTP/1.1" 200 5
+INFO 2024-02-19 16:38:15,235 autoreload 20656 18456 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-19 16:38:15,894 autoreload 10988 20940 Watching for file changes with StatReloader
+INFO 2024-02-19 16:38:31,314 autoreload 10988 20940 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-19 16:38:31,977 autoreload 16360 15052 Watching for file changes with StatReloader
+INFO 2024-02-19 16:38:33,135 views 16360 7264 HEADS
+INFO 2024-02-19 16:38:33,171 views 16360 7264 HeadsTails #18 Model created
+ERROR 2024-02-19 16:38:33,236 log 16360 7264 Internal Server Error: /randomapp/headstails/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 26, in heads_tails
+    return render(result, 'randomapp/headstails.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 169, in render
+    with context.bind_template(self):
+  File "C:\Users\rprokopiev\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\context.py", line 254, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\context_processors.py", line 41, in debug
+    if settings.DEBUG and request.META.get("REMOTE_ADDR") in settings.INTERNAL_IPS:
+                          ^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'META'
+ERROR 2024-02-19 16:38:33,254 basehttp 16360 7264 "GET /randomapp/headstails/ HTTP/1.1" 500 99262
+INFO 2024-02-19 16:39:29,990 autoreload 16360 15052 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-19 16:39:30,653 autoreload 1860 14596 Watching for file changes with StatReloader
+INFO 2024-02-19 16:39:35,215 views 1860 14548 HEADS
+INFO 2024-02-19 16:39:35,263 views 1860 14548 HeadsTails #19 Model created
+INFO 2024-02-19 16:39:35,272 basehttp 1860 14548 "GET /randomapp/headstails/ HTTP/1.1" 200 337
+INFO 2024-02-19 16:39:48,479 views 1860 21484 ranadomapp - index
+INFO 2024-02-19 16:39:48,484 basehttp 1860 21484 "GET /randomapp/ HTTP/1.1" 200 490
+INFO 2024-02-19 16:39:50,135 views 1860 21484 2
+ERROR 2024-02-19 16:39:50,202 log 1860 21484 Internal Server Error: /randomapp/dice/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: randomapp_dice
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 33, in dice
+    game_result.save()
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: randomapp_dice
+ERROR 2024-02-19 16:39:50,216 basehttp 1860 21484 "GET /randomapp/dice/ HTTP/1.1" 500 148688
+INFO 2024-02-19 16:40:43,831 autoreload 1860 14596 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-19 16:40:44,515 autoreload 21008 21316 Watching for file changes with StatReloader
+INFO 2024-02-19 16:40:46,923 views 21008 8132 4
+ERROR 2024-02-19 16:40:47,007 log 21008 8132 Internal Server Error: /randomapp/dice/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: randomapp_dice
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 33, in dice
+    game_result.save()
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: randomapp_dice
+ERROR 2024-02-19 16:40:47,021 basehttp 21008 8132 "GET /randomapp/dice/ HTTP/1.1" 500 148814
+INFO 2024-02-19 16:41:22,296 autoreload 21008 21316 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-19 16:41:23,047 autoreload 7852 10308 Watching for file changes with StatReloader
+INFO 2024-02-19 16:41:23,457 views 7852 20720 4
+ERROR 2024-02-19 16:41:23,551 log 7852 20720 Internal Server Error: /randomapp/dice/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: randomapp_dice
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 33, in dice
+    game_result.save()
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: randomapp_dice
+ERROR 2024-02-19 16:41:23,583 basehttp 7852 20720 "GET /randomapp/dice/ HTTP/1.1" 500 148866
+INFO 2024-02-19 16:41:24,480 views 7852 5112 3
+ERROR 2024-02-19 16:41:24,514 log 7852 5112 Internal Server Error: /randomapp/dice/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: randomapp_dice
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 33, in dice
+    game_result.save()
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: randomapp_dice
+ERROR 2024-02-19 16:41:24,528 basehttp 7852 5112 "GET /randomapp/dice/ HTTP/1.1" 500 148866
+INFO 2024-02-19 16:41:55,451 views 7852 3788 ranadomapp - index
+INFO 2024-02-19 16:41:55,457 basehttp 7852 3788 "GET /randomapp/ HTTP/1.1" 200 490
+INFO 2024-02-19 16:41:57,391 views 7852 3788 Random Int: 89
+ERROR 2024-02-19 16:41:57,426 log 7852 3788 Internal Server Error: /randomapp/randomint/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: randomapp_randomint
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 44, in random_int
+    game_result.save()
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: randomapp_randomint
+ERROR 2024-02-19 16:41:57,441 basehttp 7852 3788 "GET /randomapp/randomint/ HTTP/1.1" 500 148603
+INFO 2024-02-19 16:42:18,080 autoreload 7852 10308 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-19 16:42:18,732 autoreload 20912 18452 Watching for file changes with StatReloader
+INFO 2024-02-19 16:42:22,237 views 20912 10504 ranadomapp - index
+INFO 2024-02-19 16:42:22,265 basehttp 20912 10504 "GET /randomapp/ HTTP/1.1" 200 490
+INFO 2024-02-19 16:42:24,409 views 20912 3380 2
+ERROR 2024-02-19 16:42:24,501 log 20912 3380 Internal Server Error: /randomapp/dice/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: randomapp_dice
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py", line 33, in dice
+    game_result.save()
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: randomapp_dice
+ERROR 2024-02-19 16:42:24,526 basehttp 20912 3380 "GET /randomapp/dice/ HTTP/1.1" 500 148671
+INFO 2024-02-19 16:44:04,476 autoreload 8360 17648 Watching for file changes with StatReloader
+INFO 2024-02-19 16:44:07,337 views 8360 20660 6
+INFO 2024-02-19 16:44:07,394 views 8360 20660 Dice # 1 model created
+INFO 2024-02-19 16:44:07,403 basehttp 8360 20660 "GET /randomapp/dice/ HTTP/1.1" 200 326
+INFO 2024-02-19 16:44:12,934 views 8360 13408 ranadomapp - index
+INFO 2024-02-19 16:44:12,939 basehttp 8360 13408 "GET /randomapp/ HTTP/1.1" 200 490
+INFO 2024-02-19 16:44:15,104 views 8360 13408 Random Int: 75
+INFO 2024-02-19 16:44:15,116 views 8360 13408 Random Int # 1 model created
+INFO 2024-02-19 16:44:15,119 basehttp 8360 13408 "GET /randomapp/randomint/ HTTP/1.1" 200 332
+INFO 2024-02-19 16:44:36,908 autoreload 8360 17648 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\randomapp\views.py changed, reloading.
+INFO 2024-02-19 16:44:37,536 autoreload 21004 13592 Watching for file changes with StatReloader
+INFO 2024-02-19 16:44:40,711 views 21004 21296 ranadomapp - index
+INFO 2024-02-19 16:44:40,759 basehttp 21004 21296 "GET /randomapp/ HTTP/1.1" 200 490
+INFO 2024-02-19 16:44:43,591 views 21004 21296 HEADS
+INFO 2024-02-19 16:44:43,624 views 21004 21296 HeadsTails #20 Model created
+INFO 2024-02-19 16:44:43,627 basehttp 21004 21296 "GET /randomapp/headstails/ HTTP/1.1" 200 335
+INFO 2024-02-19 16:44:48,666 views 21004 21296 4
+INFO 2024-02-19 16:44:48,685 views 21004 21296 Dice # 2 model created
+INFO 2024-02-19 16:44:48,687 basehttp 21004 21296 "GET /randomapp/dice/ HTTP/1.1" 200 331
+INFO 2024-02-19 16:44:50,883 views 21004 4732 Random Int: 87
+INFO 2024-02-19 16:44:50,900 views 21004 4732 Random Int # 2 model created
+INFO 2024-02-19 16:44:50,902 basehttp 21004 4732 "GET /randomapp/randomint/ HTTP/1.1" 200 332

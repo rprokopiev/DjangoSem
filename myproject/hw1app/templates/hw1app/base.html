@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}TITLE{% endblock%}</title>
+</head>
+<body>
+    <header><h2>BASE HEADER</h2></header>
+    {% block content %}
+        <p>
+            place for content
+        </p>
+    {% endblock %}
+    </body>
+    <footer><h2>BASE FOOTER</h2></footer>
+</html>
