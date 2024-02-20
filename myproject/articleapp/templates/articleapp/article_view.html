@@ -1,0 +1,25 @@
+{% extends 'articleapp/base.html' %}
+
+{% block title%}
+    Article
+{% endblock %}
+
+
+{% block content%}
+    <h1>Article {{ article.title }}</h1>
+    <p>{{ article.content }}</p>
+
+    {% for comment in comments %}
+        {% if comment.ceation_date == comment.modified_date %}
+            <li>
+                CHANGED ON {{ comment.modified_date }} <br>
+                {{ comment.content }} <br>
+                {{ comment.author_id }} <br>
+            </li>
+        {% endif %}
+            <li>
+                {{ comment.content }} <br>
+                {{ comment.author_id }} <br>
+            </li>
+    {% endfor %}
+{% endblock %}

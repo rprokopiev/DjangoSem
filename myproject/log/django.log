@@ -1202,3 +1202,215 @@ INFO 2024-02-19 16:44:48,687 basehttp 21004 21296 "GET /randomapp/dice/ HTTP/1.1
 INFO 2024-02-19 16:44:50,883 views 21004 4732 Random Int: 87
 INFO 2024-02-19 16:44:50,900 views 21004 4732 Random Int # 2 model created
 INFO 2024-02-19 16:44:50,902 basehttp 21004 4732 "GET /randomapp/randomint/ HTTP/1.1" 200 332
+INFO 2024-02-20 12:48:58,593 autoreload 14228 21344 Watching for file changes with StatReloader
+INFO 2024-02-20 12:49:12,119 views 14228 19496 ranadomapp - index
+INFO 2024-02-20 12:49:12,152 basehttp 14228 19496 "GET /randomapp/ HTTP/1.1" 200 490
+WARNING 2024-02-20 12:49:12,266 log 14228 19496 Not Found: /favicon.ico
+WARNING 2024-02-20 12:49:12,266 basehttp 14228 19496 "GET /favicon.ico HTTP/1.1" 404 2666
+WARNING 2024-02-20 12:49:17,230 log 14228 19496 Not Found: /about/
+WARNING 2024-02-20 12:49:17,232 basehttp 14228 19496 "GET /about/ HTTP/1.1" 404 2651
+INFO 2024-02-20 12:49:21,254 views 14228 8712 articleapp - about us
+ERROR 2024-02-20 12:49:21,332 log 14228 8712 Internal Server Error: /articleapp/about/
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\views.py", line 17, in about
+    return render(request, 'articleapp/about.html', context={'content': 'about page'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 515, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 578, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 6: 'block'. Looking for one of: endblock.
+ERROR 2024-02-20 12:49:21,349 basehttp 14228 8712 "GET /articleapp/about/ HTTP/1.1" 500 165472
+INFO 2024-02-20 12:50:05,992 views 14228 4348 articleapp - about us
+INFO 2024-02-20 12:50:05,996 basehttp 14228 4348 "GET /articleapp/about/ HTTP/1.1" 200 366
+INFO 2024-02-20 12:50:13,841 views 14228 2676 articleapp - index
+INFO 2024-02-20 12:50:13,845 basehttp 14228 2676 "GET /articleapp/ HTTP/1.1" 200 377
+INFO 2024-02-20 12:50:20,666 views 14228 21392 articleapp - about us
+INFO 2024-02-20 12:50:20,668 basehttp 14228 21392 "GET /articleapp/about/ HTTP/1.1" 200 366
+INFO 2024-02-20 13:30:12,060 autoreload 10656 20648 Watching for file changes with StatReloader
+INFO 2024-02-20 13:34:29,939 autoreload 8104 19196 Watching for file changes with StatReloader
+INFO 2024-02-20 13:38:17,668 autoreload 8104 19196 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-20 13:38:18,284 autoreload 14504 17748 Watching for file changes with StatReloader
+INFO 2024-02-20 13:39:09,678 autoreload 2236 21912 Watching for file changes with StatReloader
+INFO 2024-02-20 13:41:11,778 autoreload 21412 3692 Watching for file changes with StatReloader
+INFO 2024-02-20 13:42:18,680 autoreload 21412 3692 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-20 13:42:19,301 autoreload 18796 1364 Watching for file changes with StatReloader
+INFO 2024-02-20 13:42:37,237 views 18796 12376 articleapp - about us
+INFO 2024-02-20 13:42:37,275 basehttp 18796 12376 "GET /articleapp/about/ HTTP/1.1" 200 366
+INFO 2024-02-20 13:43:18,691 views 18796 19196 articleapp - articles_per_author
+INFO 2024-02-20 13:43:18,699 basehttp 18796 19196 "GET /articleapp/author_articles/44 HTTP/1.1" 200 397
+INFO 2024-02-20 13:45:17,113 views 18796 10800 articleapp - articles_per_author
+INFO 2024-02-20 13:45:17,124 basehttp 18796 10800 "GET /articleapp/author_articles/44 HTTP/1.1" 200 397
+INFO 2024-02-20 13:45:18,777 views 18796 10800 articleapp - articles_per_author
+INFO 2024-02-20 13:45:18,784 basehttp 18796 10800 "GET /articleapp/author_articles/44 HTTP/1.1" 200 397
+INFO 2024-02-20 13:45:47,427 views 18796 1304 articleapp - articles_per_author
+ERROR 2024-02-20 13:45:47,521 log 18796 1304 Internal Server Error: /articleapp/author_articles/44
+Traceback (most recent call last):
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\views.py", line 25, in articles_per_author
+    return render(request, 'articleapp/author_articles.html', {'author': author, 'articles': articles})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\.venv\Lib\site-packages\django\template\defaulttags.py", line 197, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Article' object is not iterable
+ERROR 2024-02-20 13:45:47,534 basehttp 18796 1304 "GET /articleapp/author_articles/44 HTTP/1.1" 500 138619
+INFO 2024-02-20 13:46:31,059 autoreload 18796 1364 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-20 13:46:31,752 autoreload 22040 12660 Watching for file changes with StatReloader
+INFO 2024-02-20 13:46:38,033 views 22040 15284 articleapp - articles_per_author
+INFO 2024-02-20 13:46:38,043 basehttp 22040 15284 "GET /articleapp/author_articles/44 HTTP/1.1" 200 801
+INFO 2024-02-20 13:47:03,502 views 22040 17464 articleapp - articles_per_author
+INFO 2024-02-20 13:47:03,511 basehttp 22040 17464 "GET /articleapp/author_articles/44 HTTP/1.1" 200 775
+INFO 2024-02-20 13:47:27,611 views 22040 17464 articleapp - articles_per_author
+INFO 2024-02-20 13:47:27,617 basehttp 22040 17464 "GET /articleapp/author_articles/44 HTTP/1.1" 200 646
+INFO 2024-02-20 13:47:48,562 views 22040 17464 articleapp - articles_per_author
+INFO 2024-02-20 13:47:48,573 basehttp 22040 17464 "GET /articleapp/author_articles/44 HTTP/1.1" 200 669
+INFO 2024-02-20 13:48:23,459 views 22040 17464 articleapp - articles_per_author
+INFO 2024-02-20 13:48:23,464 basehttp 22040 17464 "GET /articleapp/author_articles/44 HTTP/1.1" 200 753
+INFO 2024-02-20 13:57:39,375 autoreload 10508 9892 Watching for file changes with StatReloader
+INFO 2024-02-20 13:57:46,545 views 10508 18348 articleapp - articles_per_author
+INFO 2024-02-20 13:57:46,560 basehttp 10508 18348 "GET /articleapp/author_articles/44 HTTP/1.1" 200 783
+WARNING 2024-02-20 13:57:48,233 log 10508 18348 Not Found: /articleapp/author_articles/article_view/38
+WARNING 2024-02-20 13:57:48,235 basehttp 10508 18348 "GET /articleapp/author_articles/article_view/38 HTTP/1.1" 404 3221
+INFO 2024-02-20 13:58:07,452 autoreload 10508 9892 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\urls.py changed, reloading.
+INFO 2024-02-20 13:58:08,142 autoreload 12868 1764 Watching for file changes with StatReloader
+INFO 2024-02-20 13:58:11,765 autoreload 12868 1764 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\urls.py changed, reloading.
+INFO 2024-02-20 13:58:12,397 autoreload 20132 18716 Watching for file changes with StatReloader
+WARNING 2024-02-20 13:58:15,100 log 20132 17444 Not Found: /articleapp/author_articles/article_view/38
+WARNING 2024-02-20 13:58:15,102 basehttp 20132 17444 "GET /articleapp/author_articles/article_view/38 HTTP/1.1" 404 3430
+INFO 2024-02-20 14:01:26,526 autoreload 20132 18716 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\urls.py changed, reloading.
+INFO 2024-02-20 14:01:27,226 autoreload 17372 14228 Watching for file changes with StatReloader
+WARNING 2024-02-20 14:01:30,051 log 17372 12848 Not Found: /articleapp/author_articles/article_view/38
+WARNING 2024-02-20 14:01:30,052 basehttp 17372 12848 "GET /articleapp/author_articles/article_view/38 HTTP/1.1" 404 3446
+INFO 2024-02-20 14:02:36,635 autoreload 17372 14228 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\urls.py changed, reloading.
+INFO 2024-02-20 14:02:37,330 autoreload 19276 13396 Watching for file changes with StatReloader
+INFO 2024-02-20 14:02:45,353 autoreload 19276 13396 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-20 14:02:46,010 autoreload 13148 18372 Watching for file changes with StatReloader
+INFO 2024-02-20 14:02:55,053 autoreload 13148 18372 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-20 14:02:55,669 autoreload 18888 17648 Watching for file changes with StatReloader
+INFO 2024-02-20 14:03:02,667 autoreload 18888 17648 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\urls.py changed, reloading.
+INFO 2024-02-20 14:03:03,298 autoreload 16436 9400 Watching for file changes with StatReloader
+INFO 2024-02-20 14:03:26,909 views 16436 14504 articleapp - articles_per_author
+INFO 2024-02-20 14:03:26,924 basehttp 16436 14504 "GET /articleapp/author_articles/44 HTTP/1.1" 200 783
+WARNING 2024-02-20 14:03:28,705 log 16436 14504 Not Found: /articleapp/author_articles/article_view/38
+WARNING 2024-02-20 14:03:28,707 basehttp 16436 14504 "GET /articleapp/author_articles/article_view/38 HTTP/1.1" 404 3435
+INFO 2024-02-20 14:08:29,539 views 16436 12468 articleapp - articles_per_author
+INFO 2024-02-20 14:08:29,549 basehttp 16436 12468 "GET /articleapp/author_articles/44 HTTP/1.1" 200 807
+INFO 2024-02-20 14:08:31,690 views 16436 12468 articleapp - articles_view
+INFO 2024-02-20 14:08:31,696 basehttp 16436 12468 "GET /articleapp/article_view/38 HTTP/1.1" 200 2678
+INFO 2024-02-20 14:09:52,825 autoreload 16436 9400 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-20 14:09:53,504 autoreload 23340 3540 Watching for file changes with StatReloader
+INFO 2024-02-20 14:10:01,470 views 23340 7300 articleapp - articles_view
+INFO 2024-02-20 14:10:01,489 basehttp 23340 7300 "GET /articleapp/article_view/38 HTTP/1.1" 200 2678
+INFO 2024-02-20 14:10:02,345 views 23340 7300 articleapp - articles_view
+INFO 2024-02-20 14:10:02,375 basehttp 23340 7300 "GET /articleapp/article_view/38 HTTP/1.1" 200 2678
+INFO 2024-02-20 14:27:39,532 autoreload 23340 3540 C:\Users\rprokopiev\Documents\Django\Sem\DjangoSem\myproject\articleapp\views.py changed, reloading.
+INFO 2024-02-20 14:27:40,386 autoreload 21844 1528 Watching for file changes with StatReloader
+INFO 2024-02-20 14:27:56,374 views 21844 5624 articleapp - articles_view
+INFO 2024-02-20 14:27:56,402 basehttp 21844 5624 "GET /articleapp/article_view/38 HTTP/1.1" 200 2913
